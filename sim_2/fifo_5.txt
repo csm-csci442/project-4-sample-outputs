@@ -1,0 +1,970 @@
+joshthomas (master) > mem-sim -v --strategy FIFO --max-frames 5 inputs/sim_2
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 1     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 2     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 3     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 4     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 1     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 2     
+
+PID 2 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 3     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 3     
+
+PID 2 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 4     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 4     
+
+PID 2 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000110111111 [page: 6; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000111111111 [page: 7; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001000111111 [page: 8; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001001111111 [page: 9; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001010111111 [page: 10; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001011111111 [page: 11; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001100111111 [page: 12; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001101111111 [page: 13; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001110111111 [page: 14; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001111111111 [page: 15; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010000111111 [page: 16; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010001111111 [page: 17; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010010111111 [page: 18; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010011111111 [page: 19; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010100111111 [page: 20; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000110111111 [page: 6; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000111111111 [page: 7; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001000111111 [page: 8; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001001111111 [page: 9; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001010111111 [page: 10; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001011111111 [page: 11; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001100111111 [page: 12; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001101111111 [page: 13; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001110111111 [page: 14; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001111111111 [page: 15; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010000111111 [page: 16; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010001111111 [page: 17; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010010111111 [page: 18; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010011111111 [page: 19; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010100111111 [page: 20; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000001111111 [page: 1; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000001111111 [frame: 1; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000010111111 [page: 2; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000100111111 [page: 4; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000100111111 [frame: 4; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000101111111 [page: 5; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000011111111 [frame: 3; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000011111111 [page: 3; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000000111111 [frame: 0; offset: 63]
+  -> RSS: 5     
+
+PID 1 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000010111111 [frame: 2; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000001111111 [page: 1; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000010111111 [page: 2; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000011111111 [page: 3; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000100111111 [page: 4; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000101111111 [page: 5; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000110111111 [page: 6; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000111111111 [page: 7; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001000111111 [page: 8; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001001111111 [page: 9; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001010111111 [page: 10; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001011111111 [page: 11; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001100111111 [page: 12; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001101111111 [page: 13; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001110111111 [page: 14; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000001111111111 [page: 15; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010000111111 [page: 16; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010001111111 [page: 17; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001000111111 [frame: 8; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010010111111 [page: 18; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000001001111111 [frame: 9; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010011111111 [page: 19; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000101111111 [frame: 5; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000010100111111 [page: 20; offset: 63]
+  -> PAGE FAULT
+  -> physical address 0000000110111111 [frame: 6; offset: 63]
+  -> RSS: 5     
+
+PID 2 @ 0000000000111111 [page: 0; offset: 63]
+  -> IN MEMORY
+  -> physical address 0000000111111111 [frame: 7; offset: 63]
+  -> RSS: 5     
+
+
+DONE!
+
+Process   1:  ACCESSES: 72     FAULTS: 21     FAULT RATE: 29.17    RSS: 5     
+Process   2:  ACCESSES: 120    FAULTS: 72     FAULT RATE: 60.00    RSS: 5     
+
+Total memory accesses:             192
+Total page faults:                  93
+Free frames remaining:             502
